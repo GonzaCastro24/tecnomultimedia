@@ -21,8 +21,7 @@
     colB = random(0,255);
     colC = random(0,255);
     fill(col, colB, colC);
-    println(col);
-    //println(frameCount);
+    println(frameCount);
     if ( (frameCount / 30) >= 1) {
         background(0); 
         image(horse, random(0, 799), random(0, 485), 30, 90);
