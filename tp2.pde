@@ -1,4 +1,4 @@
-  PImage bojack, logo, horse;
+  PImage bojack, logo;
   PFont fuente;
   void setup() {
     size(800, 486);
@@ -6,7 +6,6 @@
     noStroke();
     bojack = loadImage( "Bojack.jpg" );
     logo = loadImage ("logo.png");
-    horse = loadImage ("Horse.png");
     imageMode(CENTER);
     frameRate(15); 
     fuente = createFont("ness.ttf", 150);
@@ -24,12 +23,10 @@
     println(frameCount);
     if ( (frameCount / 30) >= 1) {
         background(0); 
-        image(horse, random(0, 799), random(0, 485), 30, 90);
         image(logo, 400, 243, 300, 100);
     }
     if ( (frameCount / 60) >= 1) {
       background(0);
-      image(horse, random(0, 799), random(0, 485), 30, 90);
       textSize(14);
       text("GUEST STARRING", 400, 150);
       textSize(36);
@@ -39,19 +36,16 @@
     }
     if ( (frameCount / 90) >= 1) {
       background(0);
-      image(horse, random(0, 799), random(0, 485), 30, 90);
       text("RAMI MALEK", 400, 200);
       text("NATALIE MORALES", 400, 255);
           }
     if ( ( frameCount / 120 ) >= 1) {
       background(0);
-      image(horse, random(0, 799), random(0, 485), 30, 90);
       text("APARNA NANCHERLA", 400, 200);
       text("JEAN VILLEPIQUE", 400, 255);
     }
     if( (frameCount / 150) >= 1) {
       background(0);
-      image(horse, random(0, 799), random(0, 485), 30, 90);
       textSize(14);
       text("STORY EDITOR", 400, 210);
       textSize(36);
@@ -59,7 +53,6 @@
     }
     if ((frameCount / 180) >= 1) {
       background(0);
-      image(horse, random(0, 799), random(0, 485), 30, 90);
       textSize(14);
       text("LINE PRODUCER", 400, 210);
       textSize(36);
@@ -68,7 +61,6 @@
     }
     if ( (frameCount / 210) >= 1) {
       background(0);
-      image(horse, random(0, 799), random(0, 485), 30, 90);
       textSize(14);
       text("PRODUCER", 400, 210);
       textSize(36);
@@ -76,7 +68,6 @@
     }
     if ( (frameCount / 240) >= 1) {
       background(0);
-      image(horse, random(0, 799), random(0, 485), 30, 90);
       textSize(14);
       text("PRODUCER", 400, 210);
       textSize(36);
@@ -84,7 +75,6 @@
     }
     if ( (frameCount / 270) >= 1) {
       background(0);
-      image(horse, random(0, 799), random(0, 485), 30, 90);
       textSize(14);
       text("CASTING DIRECTOR", 400, 210);
       textSize(36);
@@ -92,7 +82,6 @@
     }
     if ( (frameCount / 300) >= 1) {
       background(0);
-      image(horse, random(0, 799), random(0, 485), 30, 90);
       textSize(14);
       text("ASSOCIATE PRODUCER", 400, 210);
       textSize(36);
@@ -100,7 +89,6 @@
     }
     if ( (frameCount / 330) >= 1) {
       background(0);
-      image(horse, random(0, 799), random(0, 485), 30, 90);
       textSize(14);
       text("MUSIC BY", 400, 210);
       textSize(36);
@@ -108,7 +96,6 @@
     }
     if ( (frameCount / 360) >= 1) {
       background(0);
-      image(horse, random(0, 799), random(0, 485), 30, 90);
       textSize(14);
       text("MUSIC SUPERVISOR", 400, 210);
       textSize(36);
@@ -116,7 +103,6 @@
     }
     if ( (frameCount / 390) >= 1) {
       background(0);
-      image(horse, random(0, 799), random(0, 485), 30, 90);
       textSize(14);
       text("MAIN TITLE MUSIC BY", 400, 165);
       text("FEATURING", 400, 225);
