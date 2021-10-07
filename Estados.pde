@@ -52,7 +52,7 @@
   
   void confundidosA() { // vengo de vestuarioConfirmadoA
     image(fotos[3], 0, 0, width, height);
-    texto(textos[8], 12, 255, 50, 50, 300, 70); // "Los jugadores están confundidos, cómo vas a encarar así una final??!!!!"
+    texto(textos[8], 24, 0, 10, 40, 300, 200); // "Los jugadores están confundidos, cómo vas a encarar así una final??!!!!"
     botoncito(700, 550, 90, 30); // Me manda a arrancaC 
     texto(textos[59], 20, 255, 710, 555, 70, 30); //Continuar 
     
@@ -60,7 +60,7 @@
     
   void confundidosB() { // vengo de vestuarioConfirmadoB
     image(fotos[3], 0, 0, width, height);
-    texto(textos[8], 12, 255, 50, 50, 300, 70); // "Los jugadores están confundidos, cómo vas a encarar así una final??!!!!"
+    texto(textos[8], 24, 0, 10, 40, 300, 200); // "Los jugadores están confundidos, cómo vas a encarar así una final??!!!!"
     botoncito(700, 550, 90, 30); // Me manda a arrancaD
     texto(textos[59], 20, 255, 710, 555, 70, 30); //Continuar 
   }
